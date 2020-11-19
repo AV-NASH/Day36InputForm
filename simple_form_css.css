@@ -1,0 +1,82 @@
+html,input {
+    font-family: sans-serif;
+}
+body{
+    /* width: 100%;  */
+    max-width: 55%;
+     margin:auto; 
+    padding: 2em;
+   
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+}
+header{
+    /* display: flex; */
+    /* flex-flow: column wrap; */
+    background: tomato;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+}
+label{
+   
+    width: 30%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input{
+    width: 70%;
+}
+
+error-output{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
+button{
+    width: 70%;
+    align-content: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 450px){
+    h1{
+        font-size: 25px;
+    }
+    body{
+        margin-left: 7%;
+        margin-right: 7%;
+        /* margin: auto 0%; */
+        /* margin-left: 20px; */
+    }
+    label{
+        font-size: 10px;
+    }
+} 
+
+@media only screen and (max-width: 320px){
+    h1{
+        font-size: 25px;
+    }
+    body{
+        
+        margin: auto 0%;
+       
+    }
+    label{
+        font-size: 10px;
+    }
+} 
